@@ -1,0 +1,33 @@
+
+Explainable AI
+
+Introduction
+Explainable Artificial Intelligence (XAI) refers to methods and techniques that make the outcomes of AI models understandable to humans. As AI systems become more complex, especially with deep learning, there is a growing need for transparency to build trust and ensure accountability.
+
+Why Explainability Matters
+- Trust: Users are more likely to adopt AI when they understand how it works.
+- Compliance: Some regulations require explanations for automated decisions (e.g., GDPR).
+- Debugging: Helps developers identify flaws or biases in models.
+- Ethical AI: Reduces risk of unintended discrimination or unfair outcomes.
+
+Techniques for Explainability
+- Feature Importance: Identifies which inputs most influenced the prediction.
+- LIME (Local Interpretable Model-agnostic Explanations): Provides local explanations for individual predictions.
+- SHAP (SHapley Additive exPlanations): Assigns contributions to each feature.
+- Decision Trees: Naturally interpretable models.
+- Rule-based Models: Represent logic in human-readable form.
+- Attention Mechanisms: Highlight which parts of input data a model focused on.
+
+Applications
+- Healthcare: Explaining diagnoses or treatment recommendations.
+- Finance: Clarifying loan approvals or fraud alerts.
+- Autonomous Systems: Understanding decisions in self-driving cars.
+- Legal: Justifying outcomes in criminal justice risk assessments.
+
+Challenges
+- Trade-off: More explainable models may sacrifice accuracy.
+- Complex Models: Deep networks with millions of parameters are hard to interpret.
+- Human Factors: Different stakeholders need different levels of explanation.
+
+Future Outlook
+Explainable AI is a critical research area ensuring AI systems are transparent, fair, and accountable. Progress in XAI helps align AI with ethical and legal standards while fostering user trust.

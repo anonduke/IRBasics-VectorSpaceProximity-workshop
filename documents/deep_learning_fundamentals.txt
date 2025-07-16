@@ -1,0 +1,41 @@
+
+Deep Learning Fundamentals
+
+Introduction
+Deep Learning is a subfield of Machine Learning inspired by the human brain’s structure and function. It uses multi-layered artificial neural networks to automatically learn features and representations from vast amounts of data.
+
+Why Deep Learning?
+Unlike traditional ML, which depends heavily on manual feature extraction, Deep Learning excels at discovering complex patterns in high-dimensional data, such as images, speech, and text.
+
+Key Concepts
+- Artificial Neurons: Basic units that receive inputs, apply weights and biases, and pass outputs through activation functions.
+- Layers: Networks are composed of input layers, hidden layers, and output layers. Deep networks have many hidden layers.
+- Activation Functions: Introduce non-linearity. Common examples: ReLU, Sigmoid, Tanh.
+- Forward Propagation: Data moves from input to output through the network.
+- Backpropagation: Algorithm to adjust weights using gradients, minimizing loss.
+- Loss Functions: Measure how well predictions match targets. Examples: Cross-entropy, Mean Squared Error.
+
+Popular Architectures
+- Feedforward Neural Networks (FNNs): Data flows in one direction. Suitable for tabular data.
+- Convolutional Neural Networks (CNNs): Specialized for image processing. Layers detect edges, textures, and complex structures.
+- Recurrent Neural Networks (RNNs): Designed for sequential data like time series or text. Includes variants like LSTM and GRU for long-term dependencies.
+- Generative Adversarial Networks (GANs): Two networks (generator and discriminator) compete to produce realistic outputs.
+- Transformers: Revolutionized NLP tasks. Power models like BERT, GPT, and T5.
+
+Training Considerations
+- Epochs: One pass through the full training data.
+- Batch Size: Number of samples processed before updating weights.
+- Learning Rate: Step size for weight updates.
+- Regularization: Techniques like dropout to prevent overfitting.
+
+Hardware & Frameworks
+Deep learning often requires GPUs or TPUs to handle large-scale matrix computations. Popular frameworks include TensorFlow, PyTorch, and Keras.
+
+Challenges
+- Data Requirements: Needs huge labeled datasets.
+- Computational Resources: Training can be costly.
+- Interpretability: Often described as “black boxes.”
+- Ethical Concerns: Bias amplification, misuse of generated content (deepfakes).
+
+Real-World Applications
+Self-driving cars, medical imaging diagnostics, voice assistants, recommendation engines, and generative art.
